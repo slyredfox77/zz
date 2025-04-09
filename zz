@@ -1,0 +1,8 @@
+yt-dlp \
+  -f bestaudio \
+  -x --audio-format mp3 \
+  --embed-thumbnail \
+  --embed-metadata \
+  --add-metadata \
+  --output "%(playlist_index)s - %(title)s.%(ext)s" \
+  "https://www.youtube.com/watch?v=KN_mXVFxs_g&list=PL_DbZK73GIg6JqB6DNQU12waFSjJTc_TH&index=1"
